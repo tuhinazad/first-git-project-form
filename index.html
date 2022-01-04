@@ -10,6 +10,62 @@
     <h1>
      Biodata Form    
     </h1>
-    
+    <form>
+        <div>
+            <label for="FullName">Full Name</label>
+            <input type="text" name="FullName" id="FullName" readonly>
+        </div><br>
+        <div>
+          <label for="contactno" >Contact No</label>
+          <input type="text" name="contactno" id="contactno" >
+      </div><br>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+        </div><br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div><br>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+        </div><br>
+        <div>
+            <label for="photo">Choose your photo</label>
+            <input type="file" name="photo" id="photo">
+        </div><br>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+            <input type="radio" name="gender" id="gender" value="others">Others
+        </div><br>
+        <div>
+            <label for="religion">Religion</label>
+            <input type="checkbox" name="religion" id="Muslim" value="islam" checked>Islam
+            <input type="checkbox" name="religion" id="Sanatan" value="hindu">Hindu 
+        </div><br>
+        <div>
+            <label for="department">Department</label>
+            <select name="department" id="">
+              <option value="choose" selected>Choose</option>
+                <option value="cse">CSE</option>
+                <option value="ce">CE</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+                
+                <option value="me">ME</option>
+            </select>
+        </div><br>
+        <div>
+          <label for="feedback">Feed Back</label><br>
+          <textarea cols="30" rows="10"></textarea>
+      </div><br>
+      <div>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </div><br>
+</form>
 </body>
 </html>
